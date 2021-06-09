@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Timesheet from './Timesheet';
+import Screenshot from './Screenshot';
+import Report from './Report';
+import TodoList from './TodoList';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Timesheet />
+    <Screenshot />
+    <Report />
+    <TodoList /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

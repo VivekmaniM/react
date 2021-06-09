@@ -36,3 +36,153 @@
     transform: rotate(360deg);
   }
 }
+
+/*--- Scroll Bar ---*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #CCD1D1; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CCD1D1; 
+}
+
+/*-- Common --*/
+.p-15{
+  padding: 15px;
+}
+
+.main-btngrp{
+  padding: 10px 15px 10px 15px;
+}
+
+.drawer-menus{
+  padding: 30px 10px 10px 10px;
+}
+
+.drawer-menu{
+  text-align: center;
+}
+
+.drawer-menu .avatar{
+  width: 35px;
+  height: 35px;
+  margin: -5px 0px 0px 15px;
+}
+
+/*-- Timesheet --*/
+.class-one{
+  background: '#dcdbea';
+  color: #382f9c;
+  min-width: 25px;
+  max-height: 25px;
+  margin: 0px 10px 0px 0px;
+  font-weight: 600
+}
+
+.class-two{
+  background: '#dfe9fa';
+  color: #1f59ba;
+  min-width: 25px;
+  max-height: 25px;
+  margin: 0px 10px 0px 0px;
+  font-weight: 600
+}
+
+.class-three{
+  background: '#f5f1e3';
+  color: #bf9d3c;
+  min-width: 25px;
+  max-height: 25px;
+  margin: 0px 10px 0px 0px;
+  font-weight: 600
+}
+
+.class-five{
+  background: '#fae9ed';
+  color: #ff5a82;
+  min-width: 25px;
+  max-height: 25px;
+  margin: 0px 10px 0px 0px;
+  font-weight: 600
+}
+
+.class-nine{
+  background: '#faede2';
+  color: #ff8416;
+  min-width: 25px;
+  max-height: 25px;
+  margin: 0px 10px 0px 0px;
+  font-weight: 600
+}
+
+/*-- Report --*/
+.report-title{
+  margin: 10px 0px 25px 0px;
+}
+
+.btn-img{
+  margin-right: 10px;
+}
+
+/*To-Do*/
+.todo-list{
+  margin-bottom: 20px;
+}
+
+.todo-date-container{
+  padding: 5px 15px 0px 5px;
+}
+
+.todo-day{
+  margin: 0px;
+  text-align: center;
+}
+
+.todo-month{
+  font-size: 13px;
+  margin: 0px;
+  text-align: center;
+}
+
+.todo-name{
+  display: block;
+  font-weight: 600;
+}
+
+.todo-subname{
+  color: #848484;
+  display: block;
+  font-size: 12px;
+}
+
+.todo-paper{
+  background: #f8f8f8 !important;
+  padding: 10px 15px 10px 15px;
+}
+
+.todo-option-icon{
+  cursor: pointer;
+  float: right;
+  margin: -40px 0px 0px 0px;
+}
+
+.todo-list:hover .todo-paper{
+  background: #fff !important;
+}
+
+.todo-list:hover .todo-day, .todo-list:hover .todo-month{
+  color: #382f9c;
+}
