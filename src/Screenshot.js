@@ -1,18 +1,9 @@
 import './App.css';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import Grid from '@material-ui/core/Grid';
-
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
 import picture from './Assets/picture.png';
 import video_camera from './Assets/video_camera.png';
 
@@ -53,14 +44,6 @@ const useStyles = makeStyles((theme) => ({
         color: '#fff'
     }
 }));
-
-const StyledTableRow = withStyles((theme) => ({
-    root: {
-        '&:nth-of-type(odd)': {
-        backgroundColor: theme.palette.action.hover,
-        },
-    },
-}))(TableRow);
 
 function Screenshot() {
     const tableData = [

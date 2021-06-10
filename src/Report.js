@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-
+//Images
 import pdf from './Assets/pdf.png';
 import graph from './Assets/graph.png';
 import timer_blue from './Assets/timer_blue.png';

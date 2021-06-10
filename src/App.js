@@ -1,3 +1,18 @@
+import './App.css';
+import { makeStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
+import ListItem from '@material-ui/core/ListItem';
+import Button from '@material-ui/core/Button';
+import ButtonGroup from '@material-ui/core/ButtonGroup';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import AddIcon from '@material-ui/icons/Add';
+import Grid from '@material-ui/core/Grid';
+import Badge from '@material-ui/core/Badge';
+import Avatar from '@material-ui/core/Avatar';
+
+//Images
 import logo from './Assets/logo.png';
 import speedometer from './Assets/speedometer.png';
 import graph from './Assets/graph.png';
@@ -13,20 +28,7 @@ import settings from './Assets/settings.png';
 import profile from './Assets/profile.png';
 import left_arrow from './Assets/left_arrow.png';
 
-import './App.css';
-import { makeStyles } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import AddIcon from '@material-ui/icons/Add';
-import Grid from '@material-ui/core/Grid';
-import Badge from '@material-ui/core/Badge';
-import Avatar from '@material-ui/core/Avatar';
-
+//Components
 import Timesheet from './Timesheet';
 import Screenshot from './Screenshot';
 import Report from './Report';
